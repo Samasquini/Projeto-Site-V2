@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+/* Cabeçalho */
+
+
+
+header{
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #ffffff;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.catalago-produto{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 47%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+    
+}
+.card2{
+    width: 33%;
+    display: inline-block;
+}
+
+.produto-imagem{
+    height: 275px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #707070;
+    font-size: 24px;
+    border-left: 2px solid #383939;
+    padding-left: 8px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #707070;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+}
+
+.btn-hover:hover, .btn-visited:visited, .btn-hover2:hover{
+    background-color: #383939;
+}
+.btn2-Arte, .btn2-Paisagens, .btn2-Carros{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #707070;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.btn2-Paisagens{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #707070;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-hover2:hover {
+    background-color: #383939;
+}
+
+.btn-visited:visited {
+        background-color: #383939;
+}
+body{
+    background-color: black;
+}
+.tela_login{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 300px;
+    background-image: url("https://thumbs.dreamstime.com/b/nubes-blancas-aisladas-sobre-el-ejemplo-negro-del-fondo-115985423.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-h1-inicial{
+    padding: 15px;
+}
+.h1-inicial{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 20px; 
+    margin-left: 30px;
+
+}
+.div-p-inicial{
+    padding:10px;
+}
+.div-a-inicial{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-inicial{
+    padding: 20px 150px;
+    background-color: #707070;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -90px; 
+}
